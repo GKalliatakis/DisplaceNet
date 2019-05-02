@@ -1,0 +1,58 @@
+------------------------  ResNet50 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.7944522668
+      Mean squared error (MSE):  4.92477120278
+Root mean squared error (RMSE):  2.21918255283
+Explained variance score (EVS):  -1.27654424337
+          R^2 Score (R2 Score):  -1.80123371249
+
+
+------------------------  VGG16 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.69004644761
+      Mean squared error (MSE):  4.51888541682
+Root mean squared error (RMSE):  2.12576701847
+Explained variance score (EVS):  -1.42371232725
+          R^2 Score (R2 Score):  -1.57036391159
+
+
+------------------------  VGG19 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.67684520113
+      Mean squared error (MSE):  4.35512476284
+Root mean squared error (RMSE):  2.08689356768
+Explained variance score (EVS):  -1.18390084417
+          R^2 Score (R2 Score):  -1.47721605846
+
+
+
+
+------------------------  VGG16_ResNet50 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.50535977136
+      Mean squared error (MSE):  3.55751174135
+Root mean squared error (RMSE):  1.88613672393
+Explained variance score (EVS):  -0.892874333679
+          R^2 Score (R2 Score):  -1.02352990872
+
+
+------------------------  VGG16_VGG19 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.46945273284
+      Mean squared error (MSE):  3.41380063821
+Root mean squared error (RMSE):  1.84764732517
+Explained variance score (EVS):  -0.844251569992
+          R^2 Score (R2 Score):  -0.941786337215
+
+
+------------------------  VGG19_ResNet50 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.58599179902
+      Mean squared error (MSE):  3.87913591802
+Root mean squared error (RMSE):  1.96955221257
+Explained variance score (EVS):  -0.818387939215
+          R^2 Score (R2 Score):  -1.20647129815
+
+
+
+
+------------------------  VGG19_ResNet50_VGG16 - euclidean loss ------------------------
+     Mean absolute error (MAE):  1.4612788618
+      Mean squared error (MSE):  3.34615663044
+Root mean squared error (RMSE):  1.82925029191
+Explained variance score (EVS):  -0.714029774688
+          R^2 Score (R2 Score):  -0.903310097972

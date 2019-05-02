@@ -1,0 +1,2 @@
+/c/child_labour 0
+/n/no_child_labour 1
