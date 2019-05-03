@@ -5,10 +5,13 @@
 </p>
 
 
-**[Grigorios Kalliatakis](https://scholar.google.com/citations?user=LMY5lhwAAAAJ&hl=en&oi=ao)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Shoaib Ehsan](https://scholar.google.com/citations?user=40KlWugAAAAJ&hl=en)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Maria Fasli](https://scholar.google.com/citations?user=Hg2osmAAAAAJ&hl=en)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Klaus McDonald-Maier](https://scholar.google.com/citations?user=xYARJTQAAAAJ&hl=en) &nbsp; &nbsp;**
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=LMY5lhwAAAAJ&hl=en&oi=ao">Grigorios Kalliatakis</a> &nbsp;&nbsp;&nbsp;
+  <a href="https://scholar.google.com/citations?user=40KlWugAAAAJ&hl=en">Shoaib Ehsan</a> &nbsp;&nbsp;&nbsp;
+  <a href="https://scholar.google.com/citations?user=Hg2osmAAAAAJ&hl=en">Maria Fasli</a> &nbsp;&nbsp;&nbsp;
+  <a href="https://scholar.google.com/citations?user=xYARJTQAAAAJ&hl=en">Klaus McDonald-Maier</a> &nbsp;&nbsp;&nbsp;
+  <br><br>
+</p>
 
 **To appear in 1<sup>st</sup> CVPR Workshop on [COMPUTER VISION FOR GLOBAL CHALLENGES (CV4GC)](https://www.cv4gc.org/)**
 
