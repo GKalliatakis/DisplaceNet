@@ -1,4 +1,6 @@
-# Recognising Displaced People from Images by Exploiting Dominance Level [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
+# Recognising Displaced People from Images by Exploiting Dominance Level
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 
 <p align="center">
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true"/>
@@ -42,6 +44,8 @@ If you use our code in your research or wish to refer to the baseline results, p
     @inproceedings{
     }
 
+<p align="center">
+  :octocat: <b>Repo will be updated with more details soon!<br>
+  :star: Make sure you have starred and forked this repository before moving on</b>
+</p>
 
-
-:electric_plug: Repo will be updated with more details soon!
