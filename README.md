@@ -1,6 +1,14 @@
-# Recognising Displaced People from Images by Exploiting Dominance Level
+<p align="center">
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/log.png?raw=true" width="725" />
+</p>
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
+
+--------------------------------------------------------------------------------
+### Introduction
+<p align="justify">To reduce the amount of manual labour required for human-rights-related image analysis, 
+we introduce <i>DisplaceNet</i>, a novel model which infers potential displaced people from images by integrating the control 
+level of the situation (dominance level) and CNN classifier into one framework for image classification.</p>
 
 <p align="center">
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="725" />
@@ -14,13 +22,15 @@
 </p>
 
 <p align="center">
-<i>To appear in 1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" target="_blank">COMPUTER VISION FOR GLOBAL CHALLENGES (CV4GC)</a> &nbsp;&nbsp;&nbsp;
+<i>To appear in 1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" target="_blank">Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
 </i>
 <br>
 <a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[arXiv preprint]</a>
  &nbsp;&nbsp;&nbsp;
 <a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[poster coming soon...]</a>
 </p>
+
+
 
 ### Dependencies
 * Python 2.7+
@@ -29,26 +39,31 @@
 
 ### Usage
 
-1. Clone the repository:
+Clone the repository:
 
-       $ git clone https://github.com/GKalliatakis/DisplaceNet.git
+    $ git clone https://github.com/GKalliatakis/DisplaceNet.git
 
-2. To make a single image inference using DisplaceNet, run the script below. See [run_DisplaceNet.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/run_DisplaceNet.py) for a list of selectable parameters.
 
-    ```bash
-    $ python run_DisplaceNet.py --img_path displaced_people_test_image.jpg \
-                                --hra_model_backend_name VGG16 \
-                                --emotic_model_backend_name VGG16 \
-                                --nb_of_conv_layers_to_fine_tune 1
-    ``` 
-3. To train displaced people branch on the HRA subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
+#### Inference with pretrained models
+
+To make a single image inference using DisplaceNet, run the script below. See [run_DisplaceNet.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/run_DisplaceNet.py) for a list of selectable parameters.
+
+   ```bash
+   $ python run_DisplaceNet.py --img_path displaced_people_test_image.jpg \
+                               --hra_model_backend_name VGG16 \
+                               --emotic_model_backend_name VGG16 \
+                               --nb_of_conv_layers_to_fine_tune 1
+   ``` 
+#### Training DisplaceNet's branches
+
+1. To train _displaced people_ branch on the HRA subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
     
     ```bash
     $ python train_hra_2class_unified.py --pre_trained_model vgg16 \
                                 	     --nb_of_conv_layers_to_fine_tune 1 \
                                 	     --nb_of_epochs 50
     ```
-4. To train human-centric branch on the EMOTIC subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
+1. To train _human-centric_ branch on the EMOTIC subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
     
     ```bash
     $ python train_emotic_unified.py --body_backbone_CNN VGG16 \
@@ -102,7 +117,6 @@ If you use our code in your research or wish to refer to the baseline results, p
 <p align="center">
   :octocat:  <br>
   <i>Repo will be updated with more details soon!</i><br>
-  <i>Make sure you have starred and forked this repository before moving on</i></b>
+  <i>Make sure you have starred and forked this repository before moving on!</i></b>
   
 </p>
-
