@@ -3,7 +3,7 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true"/>
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="700" />
 </p>
 
 <p align="center">
@@ -77,13 +77,14 @@ people counterparts for training, as well as 100 images collected from the web f
 
 ### Results
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_1.jpg" width="100" />
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_2.jpg" width="100" />
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_3.jpg" width="100" />
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_4.jpg" width="100" />
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_5.jpg" width="100" />
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_6.jpg" width="100" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_1.jpg" width="275" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_2.jpg" width="275" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_3.jpg" width="275" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_4.jpg" width="275" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_5.jpg" width="275" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_6.jpg" width="275" />
 </p>
+
 ---
 
 
