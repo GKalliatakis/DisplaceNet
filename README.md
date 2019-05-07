@@ -3,7 +3,7 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="700" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="725" />
 </p>
 
 <p align="center">
@@ -100,8 +100,9 @@ If you use our code in your research or wish to refer to the baseline results, p
     }
 
 <p align="center">
-  <mark>Repo will be updated with more details soon!</mark><br>
-  <mark>Make sure you have starred and forked this repository before moving on</mark></b>
+  :octocat:  <br>
+  <i>Repo will be updated with more details soon!</i><br>
+  <i>Make sure you have starred and forked this repository before moving on</i></b>
   
 </p>
 
