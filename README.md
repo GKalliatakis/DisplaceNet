@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo.png?raw=true" width="300" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo_v2.png?raw=true" width="300" />
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 </p>
