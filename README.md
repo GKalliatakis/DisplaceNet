@@ -1,10 +1,10 @@
 
-
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo.png?raw=true" width="350" />
-</p>
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo.png?raw=true" width="300" />
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
+</p>
+
 
 --------------------------------------------------------------------------------
 ### Introduction
@@ -13,7 +13,7 @@ we introduce <i>DisplaceNet</i>, a novel model which infers potential displaced 
 by integrating the dominance level of the situation and a CNN classifier into one framework.</p>
 
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="725" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/DisplaceNet.png?raw=true" width="700" />
 </p>
 
 <p align="center">
