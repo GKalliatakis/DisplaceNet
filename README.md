@@ -72,7 +72,7 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
    ``` 
    
    <p align="center">
-    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/results_VGG16_1L__VGG16.png?raw=true" width="700" />
+    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/results_VGG16_1L__VGG16.png?raw=true" width="700" />
    </p>
 
 
@@ -112,7 +112,7 @@ people counterparts for training, as well as 100 images collected from the web f
 
 ---
 
-### Results
+### Results (click on images to enlarge)
 <p align="center">
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_1.jpg" width="275" />
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_2.jpg" width="275" />
@@ -122,7 +122,6 @@ people counterparts for training, as well as 100 images collected from the web f
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_6.jpg" width="275" />
 </p>
 
----
 
 ### Performance of AbuseNet
 
@@ -134,6 +133,7 @@ for recognising displaced people. We report comparisons in both accuracy and cov
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/performance_table.png?raw=true" width="700" />
 </p>
 
+---
 
 ### Citing DisplaceNet
 If you use our code in your research or wish to refer to the baseline results, please use the following BibTeX entry:
