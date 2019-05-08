@@ -72,7 +72,7 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
    ``` 
    
    <p align="center">
-    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/results_VGG16_1L__VGG16.png?raw=true" width="350" />
+    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/inference/results/results_4.jpg?raw=true" width="350" />
    </p>
 
 
