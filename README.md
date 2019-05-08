@@ -72,7 +72,7 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
    ``` 
    
    <p align="center">
-    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/results_VGG16_1L__VGG16.png?raw=true" width="700" />
+    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/results_VGG16_1L__VGG16.png?raw=true" width="350" />
    </p>
 
 
@@ -124,7 +124,6 @@ people counterparts for training, as well as 100 images collected from the web f
 
 
 ### Performance of AbuseNet
-
 <p align="justify">The performance of displaced people recognition using DisplaceNet is listed below. 
 As comparison, we list the performance of various vanilla CNNs trained with various network backbones, 
 for recognising displaced people. We report comparisons in both accuracy and coverage-the proportion of a data set for which a classifier is able to produce a prediction- metrics</p>
