@@ -2,6 +2,9 @@
 <p align="center">
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo_v2.png?raw=true" width="300" />
 
+[![GitHub license](https://img.shields.io/github/license/GKalliatakis/DisplaceNet.svg)](https://github.com/GKalliatakis/DisplaceNet/blob/master/LICENSE)
+![GitHub issues](https://img.shields.io/github/issues/GKalliatakis/DisplaceNet.svg)
+![GitHub release](https://img.shields.io/github/release/GKalliatakis/DisplaceNet.svg)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 </p>
 
@@ -47,16 +50,33 @@ Clone the repository:
 
 
 #### Inference with pretrained models
-
 To make a single image inference using DisplaceNet, run the script below. See [run_DisplaceNet.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/run_DisplaceNet.py) for a list of selectable parameters.
 
    ```bash
-   $ python run_DisplaceNet.py --img_path displaced_people_test_image.jpg \
+   $ python run_DisplaceNet.py --img_path test_image.jpg \
                                --hra_model_backend_name VGG16 \
                                --emotic_model_backend_name VGG16 \
                                --nb_of_conv_layers_to_fine_tune 1
    ``` 
-#### Training DisplaceNet's branches
+   
+#### Inference results DisplaceNet vs vanilla CNNs
+Make a single image inference using DisplaceNet and display the results against vanilla CNNs (as shown in the paper). 
+For example to reproduce image below, run the following script.
+See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/displacenet_vs_vanilla.py) for a list of selectable parameters.
+
+   ```bash
+   $ python displacenet_vs_vanilla.py --img_path test_image.jpg \
+                                      --hra_model_backend_name VGG16 \
+                                      --emotic_model_backend_name VGG16 \
+                                      --nb_of_conv_layers_to_fine_tune 1
+   ``` 
+   
+   <p align="center">
+    <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/results_VGG16_1L__VGG16.png?raw=true" width="700" />
+   </p>
+
+
+#### Training DisplaceNet's branches from scratch
 
 1. To train _displaced people_ branch on the HRA subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
     
@@ -104,9 +124,18 @@ people counterparts for training, as well as 100 images collected from the web f
 
 ---
 
+### Performance of AbuseNet
+
+<p align="justify">The performance of displaced people recognition using DisplaceNet is listed below. 
+As comparison, we list the performance of various vanilla CNNs trained with various network backbones, 
+for recognising displaced people. We report comparisons in both accuracy and coverage-the proportion of a data set for which a classifier is able to produce a prediction- metrics</p>
+
+<p align="center">
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/performance_table.png?raw=true" width="700" />
+</p>
+
 
 ### Citing DisplaceNet
-
 If you use our code in your research or wish to refer to the baseline results, please use the following BibTeX entry:
 
     @article{kalliatakis2019displacenet,

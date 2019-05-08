@@ -7,7 +7,7 @@ import os
 from inference.displacenet_single_image_inference_unified import displaceNet_inference
 
 
-img_path = '/home/sandbox/Desktop/HRA-2clas-full-test/DisplacedPopulations/displaced_populations/displaced_populations_0000.jpg'
+img_path = '/home/sandbox/GKalliatakis-GitHub-Account/DisplaceNet/displaced_people_test_image.jpg'
 violation_class = 'dp'
 hra_model_backend_name = 'VGG16'
 nb_of_conv_layers_to_fine_tune = 1

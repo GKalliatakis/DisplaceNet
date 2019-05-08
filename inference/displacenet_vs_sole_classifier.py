@@ -9,9 +9,9 @@ from matplotlib import pyplot as plt
 from inference.displacenet_single_image_inference_unified import displaceNet_inference
 
 
-img_path = '/home/sandbox/Desktop/a9e9e3527e55ccc4735af804a0807009.jpg'
+img_path = '/home/sandbox/Desktop/RF234809_Medium_res-LILY-AND-RUEBEN.jpg'
 violation_class = 'dp'
-hra_model_backend_name = 'VGG19'
+hra_model_backend_name = 'VGG16'
 nb_of_conv_layers_to_fine_tune = 1
 
 raw_preds, sole_classifier_overlayed_text, top_1_predicted_label = single_img_HRA_inference(img_path=img_path,
@@ -24,7 +24,7 @@ img = image.load_img(img_path, target_size=(224, 224))
 print ('Vanilla CNN prediction: ', raw_preds[0])
 
 
-emotic_model_a_backend_name = 'VGG19'
+emotic_model_a_backend_name = 'VGG16'
 emotic_model_b_backend_name = None
 emotic_model_c_backend_name = None
 
