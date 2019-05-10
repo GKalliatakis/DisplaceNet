@@ -1,10 +1,10 @@
-
 <p align="center">
   <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/logo_v2.png?raw=true" width="300" />
 
 [![GitHub license](https://img.shields.io/github/license/GKalliatakis/DisplaceNet.svg)](https://github.com/GKalliatakis/DisplaceNet/blob/master/LICENSE)
 ![GitHub issues](https://img.shields.io/github/issues/GKalliatakis/DisplaceNet.svg)
 ![GitHub release](https://img.shields.io/github/release/GKalliatakis/DisplaceNet.svg)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/displacenet-recognising-displaced-people-from/displaced-people-recognition-on-human-righst)](https://paperswithcode.com/sota/displaced-people-recognition-on-human-righst?p=displacenet-recognising-displaced-people-from)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 </p>
 
@@ -27,12 +27,12 @@ by integrating the dominance level of the situation and a CNN classifier into on
 </p>
 
 <p align="center">
-<i>To appear in 1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" target="_blank">Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
+<i>To appear in 1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" >Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
 </i>
 <br>
-<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[arXiv preprint]</a>
- &nbsp;&nbsp;&nbsp;
-<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[poster coming soon...]</a>
+<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">arXiv preprint</a> 
+&nbsp;&nbsp|&nbsp;&nbsp
+<a href="https://arxiv.org/pdf/1905.02025.pdf">poster coming soon...</a>
 </p>
 
 
@@ -97,8 +97,10 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
     _Please note that for training the human-centric branch yourself, the HDF5 file containing the preprocessed images and their respective annotations is required (10.4GB)._
     
 ### Data of DisplaceNet
-
-Here we release the data for training DisplaceNet to the public.
+<a href="https://github.com/GKalliatakis/DisplaceNet/releases/download/v1.0/DisplaceNet-Image-Dataset.zip">
+<img src="https://cdn0.iconfinder.com/data/icons/Filecons_light/498/zip.png" title="Download DisplaceNet image data" height="35">
+</a>
+<br>
 
 [Human Rights Archive](https://github.com/GKalliatakis/Human-Rights-Archive-CNNs) is the core set of our dataset, which has been used to train DisplaceNet.
 
@@ -108,6 +110,7 @@ people counterparts for training, as well as 100 images collected from the web f
 * [Train images](https://github.com/GKalliatakis/DisplaceNet/releases/download/v1.0/train.zip)
 * [Validation images](https://github.com/GKalliatakis/DisplaceNet/releases/download/v1.0/val.zip)
 * [Test images](https://github.com/GKalliatakis/DisplaceNet/releases/download/v1.0/test.zip)
+
 
 
 ---
