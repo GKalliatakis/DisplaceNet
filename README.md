@@ -41,15 +41,37 @@ by integrating the dominance level of the situation and a CNN classifier into on
 * Python 2.7+
 * Keras 2.1.5+
 * TensorFlow 1.6.0+
+* HDF5 and [h5py](http://docs.h5py.org/en/latest/build.html) (required if you plan on saving/loading Keras models to disk).
 
-### Usage
 
-Clone the repository:
+### Installation
+Before installing DisplaceNet, please install one of Keras backend engines: TensorFlow, Theano, or CNTK. 
+We recommend the TensorFlow backend - DisplaceNet has not been tested on Theano or CNTK backend engines.
+
+- [TensorFlow installation instructions](https://www.tensorflow.org/install/).
+- [Theano installation instructions](http://deeplearning.net/software/theano/install.html#install).
+- [CNTK installation instructions](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine).
+
+More information can be found at the [official Keras installation instructions](https://github.com/keras-team/keras/blob/master/README.md#installation).
+
+Then, you can install DisplaceNet itself. There are two ways to install DisplaceNet:
+
+1. Install DisplaceNet from the GitHub source (recommended):
+
 
     $ git clone https://github.com/GKalliatakis/DisplaceNet.git
 
 
-#### Inference with pretrained models
+2. Alternatively: install DisplaceNet from PyPI (not tested):
+
+
+    $ pip install DisplaceNet
+
+
+
+### Getting started
+
+#### Inference on new data with pretrained models
 To make a single image inference using DisplaceNet, run the script below. See [run_DisplaceNet.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/run_DisplaceNet.py) for a list of selectable parameters.
 
    ```bash
@@ -59,7 +81,7 @@ To make a single image inference using DisplaceNet, run the script below. See [r
                                --nb_of_conv_layers_to_fine_tune 1
    ``` 
    
-#### Inference results DisplaceNet vs vanilla CNNs
+#### Generate predictions on new data: DisplaceNet vs vanilla CNNs
 Make a single image inference using DisplaceNet and display the results against vanilla CNNs (as shown in the paper). 
 For example to reproduce image below, run the following script.
 See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/displacenet_vs_vanilla.py) for a list of selectable parameters.
@@ -78,7 +100,7 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
 
 #### Training DisplaceNet's branches from scratch
 
-1. To train _displaced people_ branch on the HRA subset, run the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
+1. If you need to, you can train _displaced people_ branch on the HRA subset, by running the training script below. See [train_emotic_unified.py](https://github.com/GKalliatakis/DisplaceNet/blob/master/train_emotic_unified.py) for a list of selectable parameters.
     
     ```bash
     $ python train_hra_2class_unified.py --pre_trained_model vgg16 \
@@ -102,7 +124,7 @@ See [displacenet_vs_vanilla.py](https://github.com/GKalliatakis/DisplaceNet/blob
 </a>
 <br>
 
-[Human Rights Archive](https://github.com/GKalliatakis/Human-Rights-Archive-CNNs) is the core set of our dataset, which has been used to train DisplaceNet.
+[Human Rights Archive](https://github.com/GKalliatakis/Human-Rights-Archive-CNNs) is the core set of the dataset which has been used to train DisplaceNet.
 
 The constructed dataset contains 609 images of displaced people and the same number of non displaced
 people counterparts for training, as well as 100 images collected from the web for testing and validation.
@@ -126,13 +148,13 @@ people counterparts for training, as well as 100 images collected from the web f
 </p>
 
 
-### Performance of AbuseNet
+### Performance of DisplaceNet
 <p align="justify">The performance of displaced people recognition using DisplaceNet is listed below. 
 As comparison, we list the performance of various vanilla CNNs trained with various network backbones, 
 for recognising displaced people. We report comparisons in both accuracy and coverage-the proportion of a data set for which a classifier is able to produce a prediction- metrics</p>
 
 <p align="center">
-  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/performance_table.png?raw=true" width="700" />
+  <img src="https://github.com/GKalliatakis/DisplaceNet/blob/master/evaluation/performance_table.png?raw=true" width="650" />
 </p>
 
 ---
@@ -149,7 +171,8 @@ If you use our code in your research or wish to refer to the baseline results, p
 
 <p align="center">
   :octocat:  <br>
-  <i>Repo will be updated with more details soon!</i><br>
-  <i>Make sure you have starred and forked this repository before moving on!</i></b>
-  
+  <i>This repo is under development so make sure you have starred it to receive updates</i><br>
+  <i>We use GitHub issues to track public bugs. Report a bug by   <a href="https://github.com/GKalliatakis/DisplaceNet/issues">opening a new issue</a></i><br>
 </p>
+
+
