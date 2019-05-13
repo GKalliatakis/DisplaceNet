@@ -41,7 +41,7 @@ by integrating the dominance level of the situation and a CNN classifier into on
 * Python 2.7+
 * Keras 2.1.5+
 * TensorFlow 1.6.0+
-* HDF5 and [h5py](http://docs.h5py.org/en/latest/build.html) (required if you plan on saving/loading Keras models to disk).
+* HDF5 and [h5py](http://docs.h5py.org/en/latest/build.html) (required if you plan on saving/loading Keras models to disk)
 
 
 ### Installation
@@ -56,14 +56,12 @@ More information can be found at the [official Keras installation instructions](
 
 Then, you can install DisplaceNet itself. There are two ways to install DisplaceNet:
 
-1. Install DisplaceNet from the GitHub source (recommended):
-
+#### Install DisplaceNet from the GitHub source (recommended):
 
     $ git clone https://github.com/GKalliatakis/DisplaceNet.git
 
 
-2. Alternatively: install DisplaceNet from PyPI (not tested):
-
+#### Alternatively: install DisplaceNet from PyPI (not tested):
 
     $ pip install DisplaceNet
 
@@ -171,8 +169,8 @@ If you use our code in your research or wish to refer to the baseline results, p
 
 <p align="center">
   :octocat:  <br>
-  <i>This repo is under development so make sure you have starred it to receive updates</i><br>
-  <i>We use GitHub issues to track public bugs. Report a bug by   <a href="https://github.com/GKalliatakis/DisplaceNet/issues">opening a new issue</a></i><br>
+  <i>This repo is under development so make sure you have starred it to receive updates.</i><br>
+  <i>We use GitHub issues to track public bugs. Report a bug by   <a href="https://github.com/GKalliatakis/DisplaceNet/issues">opening a new issue.</a></i><br>
 </p>
 
 
