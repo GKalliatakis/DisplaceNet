@@ -30,8 +30,8 @@ by integrating the dominance level of the situation and a CNN classifier into on
 <i>1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" >Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
 </i>
 <br>
-<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[pdf]</a> 
-<a href="https://raw.githubusercontent.com/GKalliatakis/DisplaceNet/master/poster_landscape.pdf">[poster]</a>
+<a href="http://openaccess.thecvf.com/content_CVPRW_2019/papers/cv4gc/Kalliatakis_DisplaceNet_Recognising_Displaced_People_from_Images_by_Exploiting_Dominance_Level_CVPRW_2019_paper.pdf" target="_blank">[pdf]</a> 
+<a href="https://github.com/GKalliatakis/DisplaceNet/blob/master/poster_landscape.pdf">[poster]</a>
 </p>
 
 
