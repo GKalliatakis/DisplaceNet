@@ -27,12 +27,11 @@ by integrating the dominance level of the situation and a CNN classifier into on
 </p>
 
 <p align="center">
-<i>To appear in 1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" >Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
+<i>1<sup>st</sup> CVPR Workshop on <br> <a href="https://www.cv4gc.org/" >Computer Vision for Global Challenges (CV4GC)</a> &nbsp;&nbsp;&nbsp;
 </i>
 <br>
-<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">arXiv preprint</a> 
-&nbsp;&nbsp|&nbsp;&nbsp
-<a href="https://arxiv.org/pdf/1905.02025.pdf">poster coming soon...</a>
+<a href="https://arxiv.org/pdf/1905.02025.pdf" target="_blank">[pdf]</a> 
+<a href="https://raw.githubusercontent.com/GKalliatakis/DisplaceNet/master/poster_landscape.pdf">[poster]</a>
 </p>
 
 
@@ -160,16 +159,16 @@ for recognising displaced people. We report comparisons in both accuracy and cov
 ### Citing DisplaceNet
 If you use our code in your research or wish to refer to the baseline results, please use the following BibTeX entry:
 
-    @article{kalliatakis2019displacenet,
-    title={DisplaceNet: Recognising Displaced People from Images by Exploiting Dominance Level},
-    author={Kalliatakis, Grigorios and Ehsan, Shoaib and Fasli, Maria and McDonald-Maier, Klaus D},
-    journal={arXiv preprint arXiv:1905.02025},
-    year={2019}
+    @InProceedings{Kalliatakis_2019_CVPR_Workshops,
+    author = {Kalliatakis, Grigorios and Ehsan, Shoaib and Fasli, Maria and D McDonald-Maier, Klaus},
+    title = {DisplaceNet: Recognising Displaced People from Images by Exploiting Dominance Level},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month = {June},
+    year = {2019}
     }
 
 <p align="center">
   :octocat:  <br>
-  <i>This repo is under development so make sure you have starred it to receive updates.</i><br>
   <i>We use GitHub issues to track public bugs. Report a bug by   <a href="https://github.com/GKalliatakis/DisplaceNet/issues">opening a new issue.</a></i><br>
 </p>
 
