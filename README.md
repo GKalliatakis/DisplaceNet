@@ -3,7 +3,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/GKalliatakis/DisplaceNet.svg)](https://github.com/GKalliatakis/DisplaceNet/blob/master/LICENSE)
 ![GitHub issues](https://img.shields.io/github/issues/GKalliatakis/DisplaceNet.svg)
-![GitHub release](https://img.shields.io/github/release/GKalliatakis/DisplaceNet.svg)
+[![PyPI version](https://badge.fury.io/py/DisplaceNet.svg)](https://badge.fury.io/py/DisplaceNet)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/displacenet-recognising-displaced-people-from/displaced-people-recognition-on-human-righst)](https://paperswithcode.com/sota/displaced-people-recognition-on-human-righst?p=displacenet-recognising-displaced-people-from)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DisplaceNet:%20Recognising%20Displaced%20People%20from%20Images%20by%20Exploiting%20Dominance%20Level&url=https://github.com/GKalliatakis/DisplaceNet&hashtags=ML,DeepLearning,CNNs,HumanRights,HumanRightsViolations,ComputerVisionForHumanRights)
 </p>
@@ -166,6 +166,8 @@ If you use our code in your research or wish to refer to the baseline results, p
     month = {June},
     year = {2019}
     }
+    
+Also if you use our code in a publicly available project/repository, please add the link by posting an issue or creating a PR
 
 <p align="center">
   :octocat:  <br>
